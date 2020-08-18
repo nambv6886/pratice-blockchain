@@ -1,0 +1,25 @@
+export * from './utils'
+export * from './logger'
+
+export enum errorType {
+    NO_ERROR,
+    UNKNOWN_ERROR,
+    PERMISSION_DENIED,
+    METHOD_NOT_EXISTS,
+
+    ADDRESS_INVALID,
+    CURRENCY_NOT_EXISTS,
+    BLOCKCHAIN_NOT_EXISTS,
+    WITHDRAWAL_EXISTED,
+
+    WALLET_NOT_EXIST,
+    CREATE_PROJECT_ERROR,
+    PROJECT_ID_NOT_EXIST,
+
+    PROJECT_EXSIT,
+
+    USERNAME_NOT_EXISTS,
+    PASSWORD_INVALID,
+
+    BLOCK_NOT_EXISTS
+}

@@ -1,0 +1,29 @@
+{
+  "name": "blockchain-service-eg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start_localhost": "set NODE_ENV=localhost&&node --require ts-node/register src/app/app.ts",
+    "start": "node --require ts-node/register src/app/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.6.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "speakeasy": "^2.0.0",
+    "typescript": "^3.9.7",
+    "web3": "^1.2.11",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}

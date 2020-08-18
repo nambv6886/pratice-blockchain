@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "target": "es6",
+      "outDir": "./dist",
+      "baseUrl": "./src",
+      "module": "CommonJS",
+      "allowJs": true,
+      "typeRoots": [
+        "./src/custom_typing",
+        "./node_modules/@types"
+      ],
+      // "noImplicitAny": true,
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+  }
